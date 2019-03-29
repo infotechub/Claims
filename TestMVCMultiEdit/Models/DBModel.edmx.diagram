@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="c3ef855df8de40d8bd64d7497e302be7" Name="Diagram1">
+        <EntityTypeShape EntityType="DB_A0009D_NovoHubModel.C_TransactionIndex_7ad3eb30_9dbe_4fdb_bed2_b17433c5890f" Width="1.5" PointX="5.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_A0009D_NovoHubModel.ACLRole" Width="1.5" PointX="6" PointY="131.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_A0009D_NovoHubModel.AdminAllowedRole" Width="1.5" PointX="5.75" PointY="2.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_A0009D_NovoHubModel.AdminDisallowedRole" Width="1.5" PointX="7.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_A0009D_NovoHubModel.AuthorizationCode" Width="1.5" PointX="0.75" PointY="10.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_A0009D_NovoHubModel.AuthorizationRequest" Width="1.5" PointX="2.75" PointY="9.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_A0009D_NovoHubModel.AutomaticExpungeStaff" Width="1.5" PointX="4.75" PointY="9.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_A0009D_NovoHubModel.Bank" Width="1.5" PointX="5.75" PointY="14.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_A0009D_NovoHubModel.Batch" Width="1.5" PointX="14.75" PointY="17.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_A0009D_NovoHubModel.BatchJob" Width="1.5" PointX="17" PointY="15.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_A0009D_NovoHubModel.BatchRun" Width="1.5" PointX="17" PointY="19.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_A0009D_NovoHubModel.BatchRunResult" Width="1.5" PointX="19.25" PointY="17.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_A0009D_NovoHubModel.Benefit" Width="1.5" PointX="16.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_A0009D_NovoHubModel.BenefitsCategory" Width="1.5" PointX="16.75" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_A0009D_NovoHubModel.Claim" Width="1.5" PointX="12.25" PointY="1.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_A0009D_NovoHubModel.ClaimAnalysisOffline" Width="1.5" PointX="7.75" PointY="17.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_A0009D_NovoHubModel.ClaimBatch" Width="1.5" PointX="10" PointY="6.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_A0009D_NovoHubModel.ClaimDrug" Width="1.5" PointX="14.5" PointY="3.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_A0009D_NovoHubModel.ClaimHistory" Width="1.5" PointX="18.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_A0009D_NovoHubModel.ClaimService" Width="1.5" PointX="14.5" PointY="8.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_A0009D_NovoHubModel.ClaimUpload" Width="1.5" PointX="20.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_A0009D_NovoHubModel.ClaimUpload2" Width="1.5" PointX="21.75" PointY="16.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_A0009D_NovoHubModel.Company" Width="1.5" PointX="3" PointY="20.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_A0009D_NovoHubModel.CompanyAssignee" Width="1.5" PointX="16.75" PointY="9.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_A0009D_NovoHubModel.CompanyBenefit" Width="1.5" PointX="22.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_A0009D_NovoHubModel.CompanyBranch" Width="1.5" PointX="5.25" PointY="22.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_A0009D_NovoHubModel.CompanyPlan" Width="1.5" PointX="22.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_A0009D_NovoHubModel.CompanySubsidiary" Width="1.5" PointX="9.75" PointY="22.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_A0009D_NovoHubModel.ConnectCareBeneficiary" Width="1.5" PointX="5.25" PointY="29.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_A0009D_NovoHubModel.ConnectcarePaymentDetail" Width="1.5" PointX="22.75" PointY="11.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_A0009D_NovoHubModel.ConnectCareSponsor" Width="1.5" PointX="3" PointY="29.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_A0009D_NovoHubModel.Country" Width="1.5" PointX="11.75" PointY="22.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_A0009D_NovoHubModel.DeletedEnrollee" Width="1.5" PointX="13.75" PointY="22.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_A0009D_NovoHubModel.Document" Width="1.5" PointX="0.75" PointY="58.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_A0009D_NovoHubModel.DocumentTag" Width="1.5" PointX="6" PointY="71.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_A0009D_NovoHubModel.DocumentVersion" Width="1.5" PointX="3" PointY="41.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_A0009D_NovoHubModel.DownloadFile" Width="1.5" PointX="3" PointY="45.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_A0009D_NovoHubModel.DrugTariff" Width="1.5" PointX="15.75" PointY="23.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_A0009D_NovoHubModel.EmailDEST" Width="1.5" PointX="23.75" PointY="16.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_A0009D_NovoHubModel.Enrollee" Width="1.5" PointX="17.75" PointY="23.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_A0009D_NovoHubModel.EnrolleePassport" Width="1.5" PointX="23.75" PointY="20.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_A0009D_NovoHubModel.EnrolleePreexistingMedicalHistory" Width="1.5" PointX="24.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_A0009D_NovoHubModel.EnrolleeVerificationCode" Width="1.5" PointX="24.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_A0009D_NovoHubModel.ExpungedEnrollee" Width="1.5" PointX="24.75" PointY="12.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_A0009D_NovoHubModel.FacilitiesAllowed" Width="1.5" PointX="3" PointY="49.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_A0009D_NovoHubModel.FacilitiesAllowedssss" Width="1.5" PointX="23.75" PointY="24.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_A0009D_NovoHubModel.Fak" Width="1.5" PointX="3" PointY="54.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_A0009D_NovoHubModel.Faq" Width="1.5" PointX="3" PointY="58.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_A0009D_NovoHubModel.Faq1" Width="1.5" PointX="25.75" PointY="16.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_A0009D_NovoHubModel.FormListOption" Width="1.5" PointX="5.25" PointY="66.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_A0009D_NovoHubModel.FormPosting" Width="1.5" PointX="3" PointY="62.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_A0009D_NovoHubModel.FormProperty" Width="1.5" PointX="3" PointY="65.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_A0009D_NovoHubModel.FormValue" Width="1.5" PointX="5.25" PointY="62" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_A0009D_NovoHubModel.FrontEndAllowedRole" Width="1.5" PointX="25.75" PointY="20.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_A0009D_NovoHubModel.FrontEndDisallowedRole" Width="1.5" PointX="25.75" PointY="24.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_A0009D_NovoHubModel.FrontEndWebpageRole" Width="1.5" PointX="6" PointY="74.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_A0009D_NovoHubModel.Gender" Width="1.5" PointX="26.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_A0009D_NovoHubModel.HiddenWidget" Width="1.5" PointX="13.5" PointY="71.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_A0009D_NovoHubModel.IncomingClaim" Width="1.5" PointX="12.25" PointY="15.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_A0009D_NovoHubModel.Issue" Width="1.5" PointX="26.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_A0009D_NovoHubModel.LayoutArea" Width="1.5" PointX="3" PointY="73.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_A0009D_NovoHubModel.Lga" Width="1.5" PointX="3" PointY="77.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_A0009D_NovoHubModel.Log" Width="1.5" PointX="7.75" PointY="26.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_A0009D_NovoHubModel.LuceneFieldBoost" Width="1.5" PointX="26.75" PointY="9.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_A0009D_NovoHubModel.MaritalStatu" Width="1.5" PointX="9.75" PointY="26.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_A0009D_NovoHubModel.MediaFile" Width="1.5" PointX="3" PointY="83.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_A0009D_NovoHubModel.MessageTemplate" Width="1.5" PointX="27.75" PointY="13.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_A0009D_NovoHubModel.MobileSignup" Width="1.5" PointX="27.75" PointY="19.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_A0009D_NovoHubModel.Notification" Width="1.5" PointX="27.75" PointY="24.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_A0009D_NovoHubModel.NotificationTable" Width="1.5" PointX="28.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_A0009D_NovoHubModel.NovoStaff" Width="1.5" PointX="28.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_A0009D_NovoHubModel.NovoStaffResponsibility" Width="1.5" PointX="28.75" PointY="9.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_A0009D_NovoHubModel.OfflineMessage" Width="1.5" PointX="23.75" PointY="28.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_A0009D_NovoHubModel.PageTemplate" Width="1.5" PointX="3" PointY="89.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_A0009D_NovoHubModel.PageWidgetSort" Width="1.5" PointX="8.25" PointY="71.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_A0009D_NovoHubModel.PaymentBatch" Width="1.5" PointX="7.75" PointY="9.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_A0009D_NovoHubModel.PendingDependant" Width="1.5" PointX="25.75" PointY="28.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_A0009D_NovoHubModel.Plan" Width="1.5" PointX="3" PointY="93.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_A0009D_NovoHubModel.PlanDefaultBenefit" Width="1.5" PointX="27.75" PointY="28.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_A0009D_NovoHubModel.PreExistingMedicalHistoryList" Width="1.5" PointX="29.75" PointY="13.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_A0009D_NovoHubModel.Provider" Width="1.5" PointX="3" PointY="97.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_A0009D_NovoHubModel.ProviderAccount" Width="1.5" PointX="29.75" PointY="17.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_A0009D_NovoHubModel.ProviderAssignee" Width="1.5" PointX="29.75" PointY="23.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_A0009D_NovoHubModel.ProviderClaimBK" Width="1.5" PointX="5.25" PointY="100.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_A0009D_NovoHubModel.ProviderLogin" Width="1.5" PointX="29.75" PointY="27.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_A0009D_NovoHubModel.ProviderRating" Width="1.5" PointX="30.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_A0009D_NovoHubModel.ProviderService" Width="1.5" PointX="5.25" PointY="104.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_A0009D_NovoHubModel.QueuedMessage" Width="1.5" PointX="0.75" PointY="5" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_A0009D_NovoHubModel.QueuedMessageAttachment" Width="1.5" PointX="3" PointY="5.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_A0009D_NovoHubModel.QueuedTask" Width="1.5" PointX="30.75" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_A0009D_NovoHubModel.RedirectedDomain" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_A0009D_NovoHubModel.ResizedImage" Width="1.5" PointX="5.25" PointY="84.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_A0009D_NovoHubModel.ScheduledTask" Width="1.5" PointX="7.75" PointY="30.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_A0009D_NovoHubModel.Service" Width="1.5" PointX="3" PointY="110.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_A0009D_NovoHubModel.ServiceTariff" Width="1.5" PointX="9.75" PointY="30.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_A0009D_NovoHubModel.Setting" Width="1.5" PointX="31.75" PointY="10.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_A0009D_NovoHubModel.ShortCodeMsg" Width="1.5" PointX="31.75" PointY="14.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_A0009D_NovoHubModel.ShownWidget" Width="1.5" PointX="13.5" PointY="68.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_A0009D_NovoHubModel.Site" Width="1.5" PointX="0.75" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_A0009D_NovoHubModel.Sm" Width="1.5" PointX="31.75" PointY="18.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_A0009D_NovoHubModel.SmsConfig" Width="1.5" PointX="31.75" PointY="24.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_A0009D_NovoHubModel.SponsorShipType" Width="1.5" PointX="31.75" PointY="29.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_A0009D_NovoHubModel.Staff_Old_20180628" Width="1.5" PointX="32.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_A0009D_NovoHubModel.StaffUploadJob" Width="1.5" PointX="19.75" PointY="32.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_A0009D_NovoHubModel.State" Width="1.5" PointX="3" PointY="116.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_A0009D_NovoHubModel.StringResource" Width="1.5" PointX="32.75" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_A0009D_NovoHubModel.Subscription" Width="1.5" PointX="21.75" PointY="32.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_A0009D_NovoHubModel.Symposium" Width="1.5" PointX="33.75" PointY="10.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_A0009D_NovoHubModel.Tag" Width="1.5" PointX="3.75" PointY="15.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_A0009D_NovoHubModel.Tariff" Width="1.5" PointX="3" PointY="122.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_A0009D_NovoHubModel.TariffCategory" Width="1.5" PointX="11.75" PointY="33.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_A0009D_NovoHubModel.TaskShit" Width="1.5" PointX="13.75" PointY="33.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_A0009D_NovoHubModel.TempEnrollee" Width="1.5" PointX="33.75" PointY="14.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_A0009D_NovoHubModel.TerminatedSubscription" Width="1.5" PointX="27.75" PointY="33.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_A0009D_NovoHubModel.Test" Width="1.5" PointX="29.75" PointY="33.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_A0009D_NovoHubModel.testable" Width="1.5" PointX="34.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_A0009D_NovoHubModel.UrlHistory" Width="1.5" PointX="3" PointY="127.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_A0009D_NovoHubModel.User" Width="1.5" PointX="13.5" PointY="75.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_A0009D_NovoHubModel.UserClaim" Width="1.5" PointX="15.75" PointY="74" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_A0009D_NovoHubModel.UserLogin" Width="1.5" PointX="15.75" PointY="77.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_A0009D_NovoHubModel.UserNotification" Width="1.5" PointX="34.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_A0009D_NovoHubModel.UserProfileData" Width="1.5" PointX="15.75" PointY="81.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_A0009D_NovoHubModel.UserRole" Width="1.5" PointX="3.75" PointY="131.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_A0009D_NovoHubModel.UsersToRole" Width="1.5" PointX="18.75" PointY="77.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_A0009D_NovoHubModel.VettingProtocol" Width="1.5" PointX="23.75" PointY="34.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_A0009D_NovoHubModel.Widget" Width="1.5" PointX="11.25" PointY="68.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_A0009D_NovoHubModel.Zone" Width="1.5" PointX="7.75" PointY="35.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_A0009D_NovoHubModel.Query" Width="1.5" PointX="35.75" PointY="9.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_A0009D_NovoHubModel.Staff" Width="1.5" PointX="15.75" PointY="35.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_A0009D_NovoHubModel.Staff_Old_20180702" Width="1.5" PointX="35.75" PointY="31.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_A0009D_NovoHubModel.database_firewall_rules" Width="1.5" PointX="36.75" PointY="0.75" IsExpanded="true" />
+        <AssociationConnector Association="DB_A0009D_NovoHubModel.FK_ACLRole_UserRole" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_A0009D_NovoHubModel.FK_BatchJob_Batch" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_A0009D_NovoHubModel.FK_BatchRun_Batch" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_A0009D_NovoHubModel.FK_BatchRunResult_BatchJob" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_A0009D_NovoHubModel.FK_BatchRunResult_BatchRun" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_A0009D_NovoHubModel.FK_Claim_ClaimBatch" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_A0009D_NovoHubModel.FK_ClaimDrug_Claim" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_A0009D_NovoHubModel.FK_ClaimService_Claim" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_A0009D_NovoHubModel.FK_ClaimBatch_PaymentBatch" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_A0009D_NovoHubModel.FK_IncomingClaims_ClaimBatch" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_A0009D_NovoHubModel.FK_Company_CompanyListPage" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_A0009D_NovoHubModel.FK_CompanyBranch_Company" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_A0009D_NovoHubModel.FK_ConnectCareBeneficiary_ConnectCareSponsor" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_A0009D_NovoHubModel.FK_ConnectCareSponsor_ManageSponsorPage" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_A0009D_NovoHubModel.FK_DocumentVersion_Document" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_A0009D_NovoHubModel.FK_DownloadFile_DownloadFilesPage" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_A0009D_NovoHubModel.FK_FacilitiesAllowed_FacilitiesAllowedPage" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_A0009D_NovoHubModel.FK_Fak_MyFak" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_A0009D_NovoHubModel.FK_Faq_ShowFaqs" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_A0009D_NovoHubModel.FK_FormPosting_Webpage" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_A0009D_NovoHubModel.FK_FormProperty_Webpage" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_A0009D_NovoHubModel.FK_LayoutArea_Layout" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_A0009D_NovoHubModel.FK_Lga_DelistedProviderPage" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_A0009D_NovoHubModel.FK_Lga_EnrolleeDetailsPage" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_A0009D_NovoHubModel.FK_Lga_EnrolleeListPage" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_A0009D_NovoHubModel.FK_Lga_EnrolleePage" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_A0009D_NovoHubModel.FK_Lga_EnrolleeRegPage" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_A0009D_NovoHubModel.FK_Lga_ProviderPage" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_A0009D_NovoHubModel.FK_MediaFile_MediaCategory" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_A0009D_NovoHubModel.FK_PageTemplate_Layout" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_A0009D_NovoHubModel.FK_PageWidgetSort_Webpage" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_A0009D_NovoHubModel.FK_Plan_PlanPage" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_A0009D_NovoHubModel.FK_Provider_DelistedProviderPage" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_A0009D_NovoHubModel.FK_Provider_FacilitiesListPage" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_A0009D_NovoHubModel.FK_Provider_ProviderApprovalPage" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_A0009D_NovoHubModel.FK_Provider_ProviderListPage" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_A0009D_NovoHubModel.FK_Provider_TariffContentPage" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_A0009D_NovoHubModel.FK_Provider_TariffPage" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_A0009D_NovoHubModel.FK_Service_ServicesPage" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_A0009D_NovoHubModel.FK_State_DelistedProviderPage" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_A0009D_NovoHubModel.FK_State_EnrolleeDetailsPage" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_A0009D_NovoHubModel.FK_State_EnrolleeListPage" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_A0009D_NovoHubModel.FK_State_EnrolleePage" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_A0009D_NovoHubModel.FK_State_EnrolleeRegPage" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_A0009D_NovoHubModel.FK_State_ProviderPage" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_A0009D_NovoHubModel.FK_Tariff_TariffPage" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_A0009D_NovoHubModel.FK_UrlHistory_Webpage" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_A0009D_NovoHubModel.FK_Widget_Webpage" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_A0009D_NovoHubModel.FK12C49766309CDCEF" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_A0009D_NovoHubModel.FK25385555F03AD08F" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_A0009D_NovoHubModel.FK5600CF9EC9FE2185" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_A0009D_NovoHubModel.FK5CA179C8F03AD08F" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_A0009D_NovoHubModel.FK6740402E3C5CEC49" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_A0009D_NovoHubModel.FK8BB7943B309CDCEF" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_A0009D_NovoHubModel.FKADF45E63309CDCEF" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_A0009D_NovoHubModel.FKEE9A5410F03AD08F" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_A0009D_NovoHubModel.FK5600CF9E11517505" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_A0009D_NovoHubModel.FK6740402EEDDEC256" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_A0009D_NovoHubModel.FK_FormListOption_FormPropertyWithOptions" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_A0009D_NovoHubModel.FK_FormValue_FormPosting" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_A0009D_NovoHubModel.FKADF45E6397E6417E" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_A0009D_NovoHubModel.FKEE9A5410D8A3AD32" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_A0009D_NovoHubModel.FK253855556B5BEE35" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_A0009D_NovoHubModel.FK8BB7943B55B578CC" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_A0009D_NovoHubModel.FK_PageWidgetSort_LayoutArea" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_A0009D_NovoHubModel.FK_Widget_LayoutArea" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_A0009D_NovoHubModel.FK_ResizedImage_MediaFile" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_A0009D_NovoHubModel.FK_PageWidgetSort_Widget" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_A0009D_NovoHubModel.FK_ProviderClaimBK_Provider" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_A0009D_NovoHubModel.FK_ProviderServices_Provider" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_A0009D_NovoHubModel.FK_QueuedMessageAttachment_QueuedMessage" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_A0009D_NovoHubModel.FK_RedirectedDomain_Site" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_A0009D_NovoHubModel.FK12C4976655B578CC" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_A0009D_NovoHubModel.FK5CA179C86B5BEE35" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_A0009D_NovoHubModel.FK_User_ChatSideBarWidget" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_A0009D_NovoHubModel.FK_User_RightSideBarWidget" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_A0009D_NovoHubModel.FK_UserClaim_User" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_A0009D_NovoHubModel.FK_UserLogin_User" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_A0009D_NovoHubModel.FK_UserProfileData_User" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_A0009D_NovoHubModel.FK23E59942F20BF66" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_A0009D_NovoHubModel.FKE02398064ECC1BFC" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_A0009D_NovoHubModel.FK23E5994D8A3AD32" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_A0009D_NovoHubModel.FKE023980697E6417E" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

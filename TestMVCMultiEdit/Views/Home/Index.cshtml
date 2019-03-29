@@ -1,0 +1,39 @@
+﻿
+@model List<TestMVCMultiEdit.Models.ClaimDrug>
+@{
+    ViewBag.Title = "Update multiple row at once Using MVC 4 and EF ";
+}
+@using (@Html.BeginForm("Edit", "ClaimDrugs", FormMethod.Post))
+{
+<table>
+    <tr>
+        <th></th>
+        <th>Drug Description</th>
+        <th>Quantity</th>
+        <th>Rate</th>
+        <th>Initial Amount</th>
+        <th>Vetted Amount</th>
+        <th>Remark</th>
+    </tr>
+    @for (int i = 0; i < Model.Count; i++)
+       
+        {
+            <tr>
+                <td>@Html.HiddenFor(model => model[i].ClaimId)</td>
+                <td>@Html.EditorFor(model => model[i].DrugDescription)</td>
+                <td>@Html.EditorFor(model => model[i].Quantity)</td>
+                <td>@Html.EditorFor(model => model[i].rate)</td>
+                <td>@Html.EditorFor(model => model[i].InitialAmount)</td>
+                <td>@Html.EditorFor(model => model[i].VettedAmount)</td>
+                <td>@Html.EditorFor(model => model[i].VettingComment)</td>
+            </tr>
+        }
+</table>
+    <p><input type="submit" value="Save" /></p>
+    <p style="color:green; font-size:12px;">
+        @ViewBag.Message
+    </p>
+}
+@section Scripts{
+    @Scripts.Render("~/bundles/jqueryval")
+}

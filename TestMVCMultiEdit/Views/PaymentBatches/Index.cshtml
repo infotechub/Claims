@@ -1,0 +1,99 @@
+﻿@using PagedList;
+
+@using PagedList.Mvc;
+@model IPagedList<TestMVCMultiEdit.Models.PaymentBatch>
+
+@{
+                /**/
+
+                ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.First().Title)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.First().Description)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.First().Note)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.First().status)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.First().datepaymentstarted)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.First().datepaymentcompleted)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.First().terminationdate)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.First().paidby)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.First().createdBy)
+        </th>
+
+        <th>
+            @Html.DisplayNameFor(model => model.First().CreatedOn)
+        </th>
+
+
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+<tr>
+    <td>
+        @Html.DisplayFor(modelItem => item.Title)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.Description)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.Note)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.status)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.datepaymentstarted)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.datepaymentcompleted)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.terminationdate)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.paidby)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.createdBy)
+    </td>
+
+    <td>
+        @Html.DisplayFor(modelItem => item.CreatedOn)
+    </td>
+
+
+    <td>
+        @Html.ActionLink("Edit", "Edit", new { id = item.Id }) |
+        @Html.ActionLink("Details", "Details", new { id = item.Id }) |
+        @Html.ActionLink("Delete", "Delete", new { id = item.Id })
+    </td>
+</tr>
+}
+
+</table>

@@ -1,0 +1,138 @@
+﻿@model TestMVCMultiEdit.Models.PaymentBatch
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>PaymentBatch</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Title)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Title)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Description)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Description)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Note)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Note)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.status)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.status)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.datepaymentstarted)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.datepaymentstarted)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.datepaymentcompleted)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.datepaymentcompleted)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.terminationdate)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.terminationdate)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.paidby)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.paidby)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.createdBy)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.createdBy)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Guid)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Guid)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CreatedOn)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CreatedOn)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.UpdatedOn)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.UpdatedOn)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.IsDeleted)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.IsDeleted)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.SiteId)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.SiteId)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.terminatedby)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.terminatedby)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.Id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

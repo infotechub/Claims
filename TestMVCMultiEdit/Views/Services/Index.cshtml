@@ -1,0 +1,45 @@
+﻿@model List<TestMVCMultiEdit.Models.ClaimService>
+@{
+    ViewBag.Title = "TEST APP";
+}
+<script type="text/javascript">
+    function ConfirmUpdate() {
+        return confirm("Do you want to Update the records.");
+    }
+</script>
+@using (@Html.BeginForm("Index", "Services", FormMethod.Post))
+{
+    <table>
+
+        <tr>
+            <th></th>
+            <th>Service Description</th>
+            <th>Duration</th>
+            <th>Rate</th>
+            <th>Initial Amount</th>
+            <th>Vetted Amount</th>
+            <th>Remark</th>
+        </tr>
+        <tr></tr>
+
+        @for (int y = 0; y < Model.Count; y++)
+        {
+            <tr>
+                <td>@Html.HiddenFor(model => model[y].ClaimId)</td>
+                <td>@Html.EditorFor(model => model[y].ServiceDescription)</td>
+                <td>@Html.EditorFor(model => model[y].Duration)</td>
+                <td>@Html.EditorFor(model => model[y].rate)</td>
+                <td>@Html.EditorFor(model => model[y].InitialAmount)</td>
+                <td>@Html.EditorFor(model => model[y].VettedAmount)</td>
+                <td>@Html.EditorFor(model => model[y].VettingComment)</td>
+            </tr>
+        }
+    </table>
+    <p>
+        <input type="submit" value="Update" onclick="javascript:return ConfirmUpdate();" />
+    </p>
+    <p style="color: green; font-size: 12px;">
+        @ViewBag.Message
+    </p>
+}
+

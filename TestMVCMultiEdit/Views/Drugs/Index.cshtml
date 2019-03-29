@@ -1,0 +1,57 @@
+﻿
+@model List<TestMVCMultiEdit.Models.ClaimDrug>
+@{
+    ViewBag.Title = "TEST APP";
+}
+<script type="text/javascript">
+    function ConfirmUpdate() {
+        return confirm("Do you want to Update the records.");
+    }
+</script>
+@using (@Html.BeginForm("Index", "Drugs", FormMethod.Post))
+{
+    <table>
+
+        <tr>
+            <th></th>
+            <th>Drug Description</th>
+            <th>Quantity</th>
+            <th>Rate</th>
+            <th>Initial Amount</th>
+            <th>Vetted Amount</th>
+            <th>Remark</th>
+        </tr>
+        <tr></tr>
+
+        @for (int i = 0; i < Model.Count; i++)
+        {
+            <tr>
+                <td>@Html.HiddenFor(model => model[i].ClaimId, new { @readonly = "readonly" })</td>
+                <td>@Html.EditorFor(model => model[i].DrugDescription, new { @readonly = "readonly" })</td>
+                <td>@Html.EditorFor(model => model[i].Quantity, new { @readonly = "readonly" })</td>
+                <td>@Html.EditorFor(model => model[i].rate, new { @readonly = "readonly" })</td>
+                <td>@Html.EditorFor(model => model[i].InitialAmount, new { @readonly = "readonly", id = "initial" })</td>
+                <td>@Html.EditorFor(model => model[i].VettedAmount, new { @required = "This field is required!", id = "vetted" })</td>
+                <td>@Html.EditorFor(model => model[i].VettingComment, new {id = "message" })</td>
+                <td><span id='message'></span></td>
+            </tr>
+        }
+    </table>
+    <p>
+        <input type="submit" value="Update" onclick="javascript:return ConfirmUpdate();" />
+    </p>
+    <p style="color: green; font-size: 12px;">
+        @ViewBag.Message
+    </p>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <Script>
+
+        $('#password, #confirm_password').on('keyup', function () {
+            if ($('#initial').val() == $('#vetted').val()) {
+                $('#message').html('Matching').css('color', 'green');
+            } else
+                $('#message').html('Not Matching').css('color', 'red');
+        });
+    </Script>
+}
+

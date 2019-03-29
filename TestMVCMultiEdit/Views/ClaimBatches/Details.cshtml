@@ -1,0 +1,378 @@
+﻿@model TestMVCMultiEdit.Models.ClaimBatch
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>ClaimBatch</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.ProviderId)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ProviderId)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.month)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.month)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.year)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.year)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Batch)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Batch)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.status)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.status)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.submitedVetbyUser)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.submitedVetbyUser)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.submitedReviewbyUser)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.submitedReviewbyUser)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.SubmitedForReviewDate)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.SubmitedForReviewDate)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.reviewDate)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.reviewDate)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.reviewedBy)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.reviewedBy)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.VetDate)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.VetDate)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.SubmitedForPaymentDate)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.SubmitedForPaymentDate)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.submitedPaymentbyUser)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.submitedPaymentbyUser)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.AuthorizationStatus)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.AuthorizationStatus)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.AuthorizationNote)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.AuthorizationNote)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DisapprovalNote)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DisapprovalNote)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.AuthorizedBy)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.AuthorizedBy)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DisapprovedBy)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DisapprovedBy)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.AuthorizedDate)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.AuthorizedDate)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DisapprovalDate)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DisapprovalDate)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DeletionNote)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DeletionNote)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Guid)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Guid)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CreatedOn)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CreatedOn)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.UpdatedOn)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.UpdatedOn)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.IsDeleted)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.IsDeleted)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.SiteId)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.SiteId)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.AmountPaid)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.AmountPaid)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.paymentmethod)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.paymentmethod)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.paymentref)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.paymentref)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.chequeno)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.chequeno)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.sourceBankName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.sourceBankName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.sourceBankAccountNo)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.sourceBankAccountNo)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DestBankName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DestBankName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DestBankAccountNo)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DestBankAccountNo)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.remark)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.remark)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.paymentdate)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.paymentdate)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.paidby)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.paidby)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.markpaidby)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.markpaidby)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ProviderName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ProviderName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.claimscountfromclient)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.claimscountfromclient)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.paymentmethodstring)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.paymentmethodstring)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.paymentadvicesent)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.paymentadvicesent)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.datepaymentadvicesent)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.datepaymentadvicesent)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.isremote)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.isremote)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.PaymentBatch.Title)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PaymentBatch.Title)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.Id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
